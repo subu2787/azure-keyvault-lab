@@ -27,6 +27,5 @@ jobs:
           secrets: |
             ${{ secrets.SECRET_NAME }}
 
-      - name: Show result
-        run: echo "✅ Secret fetched successfully!"
-
+      - name: Print confirmation
+        run: echo "✅ Secret fetched from Key Vault successfully!"
